@@ -1,0 +1,72 @@
+{
+  "com.anonuser.company": {
+    "fs": false, 
+    "fs.read": true,
+    "fs.write": true,
+    "fs.allowedPaths": ["/usr/local/company/home/pamusuo/Research/ByteBuddyTutorial/ByteBuddyTutorial/./src/main/java/com/anonuser/bytebuddy/filepractice/test.txt"],
+    "fs.deniedPaths": ["/etc/passwd"],
+    "net": false,
+    "net.connect": true,
+    "net.accept": false,
+    "net.allowedUrls": [],
+    "net.deniedUrls": [],
+    "runtime": false,
+    "runtime.exec": true,
+    "runtime.allowedCommands": [],
+    "runtime.deniedCommands": []
+  },
+  "org.apache.tomcat": {
+    "fs": false,
+    "fs.read": true,
+    "fs.write": true,
+    "fs.allowedPaths": ["/usr/local/company/home/pamusuo/Research/ByteBuddyTutorial/ByteBuddyTutorial/./src/main/java/com/anonuser/bytebuddy/filepractice/test.txt"],
+    "fs.deniedPaths": ["/etc/passwd"],
+    "net": false,
+    "net.connect": true,
+    "net.accept": false,
+    "net.allowedUrls": [],
+    "net.deniedUrls": [],
+    "runtime": false,
+    "runtime.exec": false,
+    "runtime.allowedCommands": [],
+    "runtime.deniedCommands": []
+  },
+  "org.apache.commons": {
+    "fs": false,
+    "fs.read": true,
+    "fs.write": true,
+    "fs.allowedPaths": ["/usr/local/company/home/pamusuo/Research/ByteBuddyTutorial/ByteBuddyTutorial/./src/main/java/com/anonuser/bytebuddy/filepractice/test.txt"],
+    "fs.deniedPaths": ["/etc/passwd"],
+    "net": false,
+    "net.connect": true,
+    "net.accept": false,
+    "net.allowedUrls": [],
+    "net.deniedUrls": [],
+    "runtime": true,
+    "runtime.exec": true,
+    "runtime.allowedCommands": [],
+    "runtime.deniedCommands": []
+  },
+  "org.apache.logging": {
+    "fs": false,
+    "fs.read": true,
+    "fs.write": true,
+    "fs.allowedPaths": [
+      "/usr/local/company/home/pamusuo/Research/ByteBuddyTutorial/ByteBuddyTutorial/./src/main/java/com/anonuser/bytebuddy/filepractice/test.txt"
+    ],
+    "fs.deniedPaths": [
+      "/etc/passwd"
+    ],
+    "net": true,
+    "net.connect": true,
+    "net.accept": false,
+    "net.allowedUrls": [],
+    "net.deniedUrls": [],
+    "runtime": true,
+    "runtime.exec": true,
+    "runtime.allowedCommands": [],
+    "runtime.deniedCommands": []
+  }
+
+}
+

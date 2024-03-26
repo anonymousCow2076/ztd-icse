@@ -1,0 +1,13 @@
+from enum import Enum
+
+class ProfileKey(Enum):
+    AGENT_CALLED = 1
+    AGENT_EXITING = 2
+    FILE_TRANSFORMER_CALLED = 3
+    FILE_TRANSFORMER_EXITING = 4
+    MAIN_CALLED = 5
+    MAIN_EXITING = 6
+    PROGRAM_START = 7
+    PROGRAM_END = 8
+    APP_CALLED = 9
+    APP_EXITING = 10

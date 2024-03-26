@@ -1,0 +1,27 @@
+Summary Statistics for System Call Static Analysis
+
+Build Failures: 11844
+Clone Failures: 267
+Successes: 3492
+Packages with >0 file-read: 1113
+Packages with >0 file-write: 971
+Packages with >0 threading: 1072
+Packages with >0 runtime-exec: 404
+Packages with >0 system-load: 66
+Packages with >0 socket-connect: 320
+Packages with >0 socket-server: 333
+Packages with >0 object-parse: 529
+Packages with >0 xml-parse: 377
+Packages with >0 jndi-lookup: 100
+Packages with >0 jndi-bind: 4
+Summary for file-read: Total = 8253, Count = 3492, Average = 2.36
+Summary for file-write: Total = 7586, Count = 3492, Average = 2.17
+Summary for socket-connect: Total = 1016, Count = 3492, Average = 0.29
+Summary for socket-server: Total = 786, Count = 3492, Average = 0.23
+Summary for runtime-exec: Total = 1700, Count = 3492, Average = 0.49
+Summary for jndi-lookup: Total = 206, Count = 3492, Average = 0.06
+Summary for jndi-bind: Total = 7, Count = 3492, Average = 0.00
+Summary for object-parse: Total = 4982, Count = 3492, Average = 1.43
+Summary for xml-parse: Total = 842, Count = 3492, Average = 0.24
+Summary for threading: Total = 14855, Count = 3492, Average = 4.25
+Summary for system-load: Total = 135, Count = 3492, Average = 0.04

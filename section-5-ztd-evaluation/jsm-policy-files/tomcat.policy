@@ -1,0 +1,25 @@
+grant{
+	permission java.util.PropertyPermission "dacapo.callback.classpath", "read";
+	permission java.lang.RuntimePermission "setContextClassLoader";
+	permission java.util.PropertyPermission "user.language", "write";
+	permission java.util.PropertyPermission "java.awt.headless","write";
+	permission java.io.FilePermission "./scratch", "read";
+	permission java.io.FilePermission "./scratch", "write";
+	permission java.util.PropertyPermission "user.dir", "read";
+	permission java.util.PropertyPermission "user.home" , "read";
+	permission java.io.FilePermission "/home/pamusuo/.dacapo-config.properties", "read";
+	permission java.lang.RuntimePermission "getProtectionDomain";
+	permission java.util.PropertyPermission "dacapo.tomcat.port", "read";
+	permission java.net.SocketPermission "localhost:8080", "listen,resolve";
+	permission java.util.PropertyPermission "dacapo.tomcat.port", "write";
+	permission java.util.PropertyPermission "*", "read,write";
+	permission java.io.FilePermission "/scratch/pamusuo/repos/dacapobench/dacapo-evaluation-git-704d3251", "read";
+	permission java.io.FilePermission "./scratch/stdout.log", "write";
+	permission java.io.FilePermission "./scratch/stderr.log" , "write";
+	permission java.io.FilePermission "./scratch/stdout.log", "read";
+	permission java.io.FilePermission "./scratch/stdout.log", "delete";
+	permission java.io.FilePermission "<<ALL FILES>>", "read";
+	permission java.io.FilePermission "./scratch/stderr.log" , "delete";
+	permission java.lang.RuntimePermission "createClassLoader";
+	permission java.security.AllPermission;
+};

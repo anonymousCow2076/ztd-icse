@@ -1,0 +1,27 @@
+<script>
+function  createXmlDocument () {
+    return document.implementation.createDocument ( '' , '' , null );
+}
+
+function loadXMLDocumentFromFile ( file ) {
+    xhttp = new XMLHttpRequest ();
+    xhttp.open ( "GET" , file, false );
+    xhttp.send () ;
+    return xhttp.responseXML ;
+}
+
+console.log ( "1" );
+
+var xmlDoc = createXmlDocument ();
+xmlDoc.async = false ;
+xmlDoc = loadXMLDocumentFromFile ( "1.xml" );
+
+
+var xslDoc = createXmlDocument ();
+xslDoc.async = false ;
+xslDoc = loadXMLDocumentFromFile ( "2.xml" );
+
+var processor = new  XSLTProcessor ();
+processor.importStylesheet (xslDoc);
+processor.transformToDocument (xmlDoc);
+</script>

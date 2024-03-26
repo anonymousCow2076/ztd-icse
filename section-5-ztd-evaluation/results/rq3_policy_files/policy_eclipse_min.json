@@ -1,0 +1,367 @@
+{
+    "Harness": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stdout.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stderr.log",
+            "/home/pamusuo/.dacapo-config.properties",
+            "/dev/random",
+            "/dev/urandom",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/logging.properties",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/eclipse/full-source-R3_0-default.zip",
+            "/usr/lib/jvm/java-11-openjdk-amd64/conf/security/java.security",
+            "/usr/lib/jvm/java-11-openjdk-amd64/lib/tzdb.dat"
+        ],
+        "fs.write.allowed": ["/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy-failures.log"],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stdout.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stderr.log"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.eclipse.osgi": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/logging.properties",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/config.ini",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/config.ini",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/logging.properties"
+        ],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.internal.preferences.osgi.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.jdt.core",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs.bak"
+        ],
+        "fs.write.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy-failures.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.core.runtime/.manager",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.log"
+        ],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/0.snap",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.core.runtime"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.eclipse.core": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings"
+        ],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/1711050541294.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/config.ini",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/logging.properties",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/eclipse/full-source-R3_0-default.zip"
+        ],
+        "fs.write.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.core.runtime"
+        ],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/org.eclipse.core.runtime/.manager"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.osgi.util": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.internal.preferences.osgi.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/1711050541294.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs.bak"
+        ],
+        "fs.write.allowed": [],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.plugins/org.eclipse.core.resources/0.snap",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace/.metadata/.log"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.dacapo.harness": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [
+            "/dev/random",
+            "/dev/urandom",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stdout.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stderr.log",
+            "/home/pamusuo/.dacapo-config.properties",
+            "/usr/lib/jvm/java-11-openjdk-amd64/conf/security/java.security",
+            "/usr/lib/jvm/java-11-openjdk-amd64/lib/tzdb.dat"
+        ],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/logging.properties",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/eclipse/full-source-R3_0-default.zip"
+        ],
+        "fs.write.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stdout.log",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/./scratch/stderr.log"
+        ],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.apache.felix": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": false,
+        "fs.read.allowed": [],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.internal.preferences.osgi.prefs.bak"
+        ],
+        "fs.write.allowed": [],
+        "fs.write.denied": [],
+        "fs.write.transitive": [],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.eclipse.jdt": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat"
+        ],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.jdt.core.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.runtime.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/1711050541294.log"
+        ],
+        "fs.write.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace"
+        ],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.eclipse.equinox": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration"
+        ],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.jdt.core.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.runtime.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/1711050541294.log",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/eclipse/full-source-R3_0-default.zip"
+        ],
+        "fs.write.allowed": [],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    },
+    "org.dacapo.eclipse": {
+        "fs": true,
+        "fs.read": true,
+        "fs.write": true,
+        "fs.read.allowed": [],
+        "fs.read.denied": [],
+        "fs.read.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.resources.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.jdt.core.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/.settings/org.eclipse.core.runtime.prefs.bak",
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/configuration/1711050541294.log",
+            "/scratch/pamusuo/repos/dacapobench/benchmarks/dacapo-evaluation-git-704d3251/dat/eclipse/full-source-R3_0-default.zip"
+        ],
+        "fs.write.allowed": [],
+        "fs.write.denied": [],
+        "fs.write.transitive": [
+            "/home/pamusuo/research/permissions-manager/repos/PPMProfiler/scratch/workspace"
+        ],
+        "net": false,
+        "net.connect": false,
+        "net.connect.allowed": [],
+        "net.connect.denied": [],
+        "net.connect.transitive": [],
+        "net.accept": false,
+        "net.accept.allowed": [],
+        "net.accept.denied": [],
+        "net.accept.transitive": [],
+        "runtime": false,
+        "runtime.exec": false,
+        "runtime.exec.allowed": [],
+        "runtime.exec.denied": [],
+        "runtime.exec.transitive": [],
+        "thread": false,
+        "thread.start": false
+    }
+}

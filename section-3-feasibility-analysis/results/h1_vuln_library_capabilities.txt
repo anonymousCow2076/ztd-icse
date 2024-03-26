@@ -1,0 +1,40 @@
+Analyzing package capabilities
+
+com.fasterxml.jackson.core:jackson-databind, {'file-read': 1, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+org.springframework.data:spring-data-mongodb, CodeQL build failed
+com.diffplug.spotless:spotless-plugin-gradle, Pom.xml not found. Continuing...
+com.diffplug.spotless:spotless-plugin-gradle, {'file-read': 5, 'file-write': 1, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 2}
+org.apache.karaf:apache-karaf, CodeQL build failed
+org.apache.dubbo:dubbo, CodeQL build failed
+com.alibaba:hessian-lite, {'file-read': 0, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+com.ibeetl:beetl, {'file-read': 2, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+com.alipay.sofa:hessian, {'file-read': 0, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+org.scala-lang:scala-library, Pom.xml not found. Continuing...
+org.scala-lang:scala-library, CodeQL build failed
+org.apache.solr:solr-core, Pom.xml not found. Continuing...
+org.apache.solr:solr-core, {'file-read': 35, 'file-write': 34, 'socket-connect': 6, 'socket-server': 9, 'runtime-exec': 2}
+org.apache.logging.log4j:log4j-core, CodeQL build failed
+org.apache.rocketmq:rocketmq-broker, CodeQL build failed
+com.alibaba:dubb, Pom.xml not found. Continuing...
+com.alibaba:dubb, CodeQL build failed
+org.jyaml:jyaml, CodeQL build failed
+org.apache.struts:struts2-core, {'file-read': 4, 'file-write': 1, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+io.dropwizard:dropwizard-validation, CodeQL build failed
+org.apache.sshd:sshd-common, {'file-read': 0, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 1}
+com.amazon.redshift:redshift-jdbc42, CodeQL build failed
+org.apache.ddlutils:ddlutils, {'file-read': 4, 'file-write': 7, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+com.thoughtworks.xstream:xstream, CodeQL build failed
+com.hazelcast:hazelcast, CodeQL build failed
+com.h2database:h2, CodeQL build failed
+org.apache.activemq:activemq-client, CodeQL build failed
+com.amazonaws:aws-android-sdk-mobile-client, Pom.xml not found. Continuing...
+com.amazonaws:aws-android-sdk-mobile-client, CodeQL build failed
+org.apache.ivy:ivy, Pom.xml not found. Continuing...
+org.apache.ivy:ivy, CodeQL build failed
+net.sourceforge.htmlunit:htmlunit, Pom.xml not found. Continuing...
+net.sourceforge.htmlunit:htmlunit, CodeQL build failed
+com.aerospike:aerospike-client, Pom.xml not found. Continuing...
+com.aerospike:aerospike-client, CodeQL build failed
+com.alibaba.nacos:nacos-spring-context, {'file-read': 0, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}
+sqlite-jdbc, Cloning failed
+org.jeasy:easy-rules-mvel, {'file-read': 0, 'file-write': 0, 'socket-connect': 0, 'socket-server': 0, 'runtime-exec': 0}

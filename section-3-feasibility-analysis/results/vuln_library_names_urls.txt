@@ -1,0 +1,21 @@
+https://github.com/apache/logging-log4j2 org.apache.logging.log4j:log4j-core
+https://github.com/apache/rocketmq org.apache.rocketmq:rocketmq-broker
+https://github.com/apache/dubbo com.alibaba:dubb
+https://github.com/yafengli/jyaml org.jyaml:jyaml
+https://github.com/apache/struts org.apache.struts:struts2-core
+https://github.com/dropwizard/dropwizard io.dropwizard:dropwizard-validation
+https://github.com/apache/mina-sshd org.apache.sshd:sshd-common
+https://github.com/aws/amazon-redshift-jdbc-driver com.amazon.redshift:redshift-jdbc42
+https://github.com/apache/ddlutils org.apache.ddlutils:ddlutils
+https://github.com/x-stream/xstream com.thoughtworks.xstream:xstream
+https://github.com/hazelcast/hazelcast com.hazelcast:hazelcast
+https://github.com/h2database/h2database com.h2database:h2
+https://github.com/apache/activemq org.apache.activemq:activemq-client
+https://github.com/aws-amplify/aws-sdk-android com.amazonaws:aws-android-sdk-mobile-client
+https://github.com/apache/ant-ivy org.apache.ivy:ivy
+https://github.com/HtmlUnit/htmlunit net.sourceforge.htmlunit:htmlunit
+https://github.com/aerospike/aerospike-client-java com.aerospike:aerospike-client
+https://github.com/nacos-group/nacos-spring-project com.alibaba.nacos:nacos-spring-context
+https://github.com/xerial/sqlite-jdbc org.xerial:sqlite-jdbc
+https://github.com/j-easy/easy-rules org.jeasy:easy-rules-mvel
+

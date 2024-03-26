@@ -1,0 +1,183 @@
+Agent                 			start-main	start-agent	agent-setup	file-trans	main-exec	total-exec	overhead
+
+
+Running avrora:
+perm-both-agent       			323.00		0.00		0.00		0.00		10088.33		41184.67		0.52
+perm-enf-f-agent      			329.00		0.00		0.00		0.00		10058.33		41099.67		0.22
+perm-mon-agent        			119.33		0.00		0.00		0.00		10081.67		41164.33		0.46
+perm-enf-c-cache-agent			330.00		0.00		0.00		0.00		10028.00		40908.00		-0.08
+perm-enf-c-agent      			327.33		0.00		0.00		0.00		10099.00		41170.33		0.63
+perm-jsm              			76.00		0.00		0.00		0.00		10053.67		40759.00		0.18
+perm-enf-f-cache-agent			330.67		0.00		0.00		0.00		10023.33		40914.33		-0.13
+no-agent              			60.00		0.00		0.00		0.00		10036.00		40619.67		0.00
+
+Running batik:
+An error occurred executing ['perm-jsm              ', '-Djava.security.manager -Djava.security.policy=/scratch/pamusuo/repos/dacapobench/jsm_policy/batik.policy'] on batik: 'MAIN_EXITING'
+perm-enf-c-agent      			325.67		0.00		0.00		0.00		1683.00		13825.67		4.86
+perm-enf-f-agent      			324.67		0.00		0.00		0.00		1636.67		13698.00		1.97
+perm-enf-c-cache-agent			336.00		0.00		0.00		0.00		1623.33		13624.67		1.14
+perm-both-agent       			325.33		0.00		0.00		0.00		1618.33		13766.33		0.83
+perm-mon-agent        			118.67		0.00		0.00		0.00		1626.33		13838.00		1.33
+no-agent              			60.67		0.00		0.00		0.00		1605.00		13243.33		0.00
+perm-enf-f-cache-agent			335.67		0.00		0.00		0.00		1646.33		13743.00		2.58
+
+Running biojava:
+perm-enf-f-agent      			335.67		0.00		0.00		0.00		10405.67		50997.00		-1.73
+perm-jsm              			73.67		0.00		0.00		0.00		10509.67		54439.67		-0.75
+perm-both-agent       			332.00		0.00		0.00		0.00		10530.00		51471.00		-0.56
+perm-mon-agent        			120.33		0.00		0.00		0.00		10525.00		43982.67		-0.60
+perm-enf-c-agent      			340.67		0.00		0.00		0.00		10509.00		54709.00		-0.76
+perm-enf-f-cache-agent			324.00		0.00		0.00		0.00		10488.67		51219.00		-0.95
+no-agent              			59.00		0.00		0.00		0.00		10589.00		47759.33		0.00
+perm-enf-c-cache-agent			340.00		0.00		0.00		0.00		10501.33		47582.33		-0.83
+
+Running eclipse:
+perm-enf-c-cache-agent			328.00		0.00		0.00		0.00		17021.33		97954.67		3.39
+perm-enf-f-agent      			327.33		0.00		0.00		0.00		16883.00		97906.00		2.55
+perm-jsm              			72.00		0.00		0.00		0.00		49561.67		49739.00		201.04
+perm-enf-f-cache-agent			334.33		0.00		0.00		0.00		16821.33		97701.00		2.17
+perm-mon-agent        			120.67		0.00		0.00		0.00		16897.33		97532.67		2.63
+perm-both-agent       			332.00		0.00		0.00		0.00		16943.33		98428.33		2.91
+no-agent              			59.33		0.00		0.00		0.00		16463.67		94849.67		0.00
+perm-enf-c-agent      			335.00		0.00		0.00		0.00		16889.33		97499.67		2.59
+
+Running fop:
+perm-enf-f-agent      			327.00		0.00		0.00		0.00		747.33		10838.00		1.77
+perm-mon-agent        			118.67		0.00		0.00		0.00		755.00		10505.00		2.81
+perm-enf-f-cache-agent			328.00		0.00		0.00		0.00		748.33		11667.00		1.91
+perm-jsm              			75.00		0.00		0.00		0.00		944.33		11172.33		28.60
+no-agent              			58.00		0.00		0.00		0.00		734.33		10737.00		0.00
+perm-enf-c-cache-agent			333.33		0.00		0.00		0.00		743.67		10043.67		1.27
+perm-enf-c-agent      			327.00		0.00		0.00		0.00		754.00		9941.00		2.68
+perm-both-agent       			328.00		0.00		0.00		0.00		736.00		10928.00		0.23
+
+Running graphchi:
+perm-enf-f-agent      			325.00		0.00		0.00		0.00		5371.00		37389.33		2.40
+perm-enf-f-cache-agent			338.67		0.00		0.00		0.00		5336.00		37184.00		1.73
+perm-enf-c-agent      			324.00		0.00		0.00		0.00		4896.67		35255.67		-6.65
+perm-mon-agent        			119.67		0.00		0.00		0.00		5234.33		36742.33		-0.21
+no-agent              			62.33		0.00		0.00		0.00		5245.33		36088.33		0.00
+perm-enf-c-cache-agent			326.00		0.00		0.00		0.00		5247.67		36614.33		0.04
+perm-jsm              			76.33		0.00		0.00		0.00		5235.33		36538.33		-0.19
+perm-both-agent       			325.67		0.00		0.00		0.00		5078.33		36118.67		-3.18
+
+Running h2:
+no-agent              			65.67		0.00		0.00		0.00		3598.67		73572.67		0.00
+perm-jsm              			77.00		0.00		0.00		0.00		3589.00		69008.00		-0.27
+perm-mon-agent        			126.33		0.00		0.00		0.00		3620.00		69943.33		0.59
+perm-enf-c-cache-agent			328.00		0.00		0.00		0.00		3627.00		69424.33		0.79
+perm-enf-f-cache-agent			335.67		0.00		0.00		0.00		3623.67		70492.00		0.69
+perm-enf-f-agent      			327.00		0.00		0.00		0.00		3610.00		69797.00		0.31
+perm-enf-c-agent      			326.67		0.00		0.00		0.00		3500.67		70329.67		-2.72
+perm-both-agent       			330.67		0.00		0.00		0.00		3620.33		70153.67		0.60
+
+Running kafka:
+An error occurred executing ['perm-both-agent       ', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=permFilePath=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka_min.json,granularity=fine,mode=BOTH'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-enf-f-agent      ', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=permFilePath=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka_min.json,granularity=fine'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-enf-f-cache-agent', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=permFilePath=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka_min.json,granularity=fine,enableCache=true'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-enf-c-agent      ', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=permFilePath=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka_min.json,granularity=coarse'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-enf-c-cache-agent', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=permFilePath=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka_min.json,granularity=coarse,enableCache=true'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-mon-agent        ', '-javaagent:/home/pamusuo/research/permissions-manager/PackagePermissionsManager/target/PackagePermissionsManager-1.0-SNAPSHOT-perm-agent.jar=mode=MONITOR,outputFile=/home/pamusuo/research/permissions-manager/repos/PPMProfiler/policy_files_0321b/policy_kafka.json'] on kafka: 'MAIN_EXITING'
+An error occurred executing ['no-agent              ', ''] on kafka: 'MAIN_EXITING'
+An error occurred executing ['perm-jsm              ', '-Djava.security.manager -Djava.security.policy=/scratch/pamusuo/repos/dacapobench/jsm_policy/kafka.policy'] on kafka: 'MAIN_EXITING'
+An error occurred calculating overheads for kafka: No baseline
+
+Running luindex:
+perm-enf-c-agent      			322.00		0.00		0.00		0.00		5878.33		54522.33		-0.92
+perm-mon-agent        			121.00		0.00		0.00		0.00		6017.33		54924.33		1.43
+no-agent              			61.33		0.00		0.00		0.00		5932.67		54557.00		0.00
+perm-enf-c-cache-agent			328.67		0.00		0.00		0.00		5797.33		54403.33		-2.28
+perm-enf-f-cache-agent			329.67		0.00		0.00		0.00		5898.00		54646.00		-0.58
+perm-both-agent       			332.33		0.00		0.00		0.00		5911.33		54761.67		-0.36
+perm-enf-f-agent      			326.67		0.00		0.00		0.00		5838.00		54296.67		-1.60
+perm-jsm              			77.00		0.00		0.00		0.00		6776.33		58614.67		14.22
+
+Running lusearch:
+perm-both-agent       			332.33		0.00		0.00		0.00		3516.67		27908.00		-0.48
+perm-enf-f-cache-agent			329.67		0.00		0.00		0.00		3539.00		31636.00		0.15
+perm-mon-agent        			121.67		0.00		0.00		0.00		3474.33		23803.00		-1.68
+perm-enf-c-agent      			331.00		0.00		0.00		0.00		3462.00		23945.00		-2.03
+no-agent              			60.67		0.00		0.00		0.00		3533.67		23619.33		0.00
+perm-enf-f-agent      			329.33		0.00		0.00		0.00		3574.00		28315.33		1.14
+perm-jsm              			74.67		0.00		0.00		0.00		3516.00		23219.00		-0.50
+perm-enf-c-cache-agent			327.67		0.00		0.00		0.00		3581.67		24198.33		1.36
+
+Running pmd:
+perm-mon-agent        			122.67		0.00		0.00		0.00		1994.33		20911.33		2.10
+perm-enf-c-cache-agent			329.00		0.00		0.00		0.00		1937.33		22389.67		-0.82
+perm-jsm              			73.67		0.00		0.00		0.00		1972.00		22354.00		0.96
+perm-enf-c-agent      			326.33		0.00		0.00		0.00		1996.00		20212.00		2.18
+perm-enf-f-cache-agent			326.33		0.00		0.00		0.00		1967.67		21648.33		0.73
+perm-both-agent       		script	325.67		0.00		0.00		0.00		1933.33		22387.00		-1.02
+perm-enf-f-agent      			326.67		0.00		0.00		0.00		1966.33		21692.33		0.67
+no-agent              			60.67		0.00		0.00		0.00		1953.33		21299.00		0.00
+
+Running spring:
+An error occurred executing ['perm-jsm              ', '-Djava.security.manager -Djava.security.policy=/scratch/pamusuo/repos/dacapobench/jsm_policy/spring.policy'] on spring: 'MAIN_EXITING'
+perm-enf-f-agent      			338.33		0.00		0.00		0.00		5759.67		45960.00		-0.70
+perm-enf-c-cache-agent			336.00		0.00		0.00		0.00		5853.67		43222.00		0.92
+perm-mon-agent        			116.33		0.00		0.00		0.00		5657.00		47603.00		-2.47
+perm-enf-c-agent      			331.67		0.00		0.00		0.00		5653.33		40975.67		-2.53
+no-agent              			60.67		0.00		0.00		0.00		5800.33		43923.33		0.00
+perm-enf-f-cache-agent			339.00		0.00		0.00		0.00		5710.00		42879.67		-1.56
+perm-both-agent       			334.33		0.00		0.00		0.00		5732.33		41271.00		-1.17
+
+Running sunflow:
+perm-enf-f-agent      			351.67		0.00		0.00		0.00		34018.67		55831.33		-47.21
+perm-enf-f-cache-agent			330.67		0.00		0.00		0.00		4449.00		64655.00		-93.10
+perm-enf-c-agent      			333.67		0.00		0.00		0.00		32525.00		74513.00		-49.53
+perm-both-agent       			325.33		0.00		0.00		0.00		5123.67		61421.00		-92.05
+perm-enf-c-cache-agent			326.00		0.00		0.00		0.00		65902.00		79852.67		2.26
+perm-mon-agent        			120.33		0.00		0.00		0.00		36255.33		67814.67		-43.74
+no-agent              			59.67		0.00		0.00		0.00		64442.67		71772.00		0.00
+perm-jsm              			80.33		0.00		0.00		0.00		65665.00		70109.00		1.90
+
+Running tomcat:
+perm-enf-f-cache-agent			330.00		0.00		0.00		0.00		4255.33		26852.00		0.61
+no-agent              			61.33		0.00		0.00		0.00		4229.33		26289.33		0.00
+perm-both-agent       			338.67		0.00		0.00		0.00		4250.67		26993.67		0.50
+perm-enf-c-agent      			333.33		0.00		0.00		0.00		4257.33		26936.67		0.66
+perm-mon-agent        			121.00		0.00		0.00		0.00		4265.00		26832.00		0.84
+perm-jsm              			77.67		0.00		0.00		0.00		4694.33		29006.33		10.99
+perm-enf-c-cache-agent			335.67		0.00		0.00		0.00		4240.33		26871.67		0.26
+perm-enf-f-agent      			337.67		0.00		0.00		0.00		4264.33		26969.67		0.83
+
+Running tradebeans:
+An error occurred executing ['perm-jsm              ', '-Djava.security.manager -Djava.security.policy=/scratch/pamusuo/repos/dacapobench/jsm_policy/tradebeans.policy'] on tradebeans: 'MAIN_EXITING'
+perm-mon-agent        			116.33		0.00		0.00		0.00		23190.33		103684.00		-0.90
+perm-enf-c-cache-agent			335.33		0.00		0.00		0.00		23173.67		103445.00		-0.97
+no-agent              			61.33		0.00		0.00		0.00		23400.67		104122.00		0.00
+perm-enf-f-agent      			334.00		0.00		0.00		0.00		22747.33		103167.67		-2.79
+perm-enf-c-agent      			332.00		0.00		0.00		0.00		23601.00		105170.67		0.86
+perm-enf-f-cache-agent			331.67		0.00		0.00		0.00		22990.33		103362.00		-1.75
+perm-both-agent       			338.00		0.00		0.00		0.00		23416.67		104601.33		0.07
+
+Running tradesoap:
+An error occurred executing ['perm-jsm              ', '-Djava.security.manager -Djava.security.policy=/scratch/pamusuo/repos/dacapobench/jsm_policy/tradesoap.policy'] on tradesoap: 'MAIN_EXITING'
+perm-enf-c-cache-agent			329.33		0.00		0.00		0.00		13115.00		78635.00		-0.11
+perm-enf-f-cache-agent			332.00		0.00		0.00		0.00		13131.67		78394.00		0.02
+perm-both-agent       			335.67		0.00		0.00		0.00		13142.67		78418.00		0.10
+perm-enf-c-agent      			334.00		0.00		0.00		0.00		13155.00		78541.67		0.20
+no-agent              			63.00		0.00		0.00		0.00		13129.00		77980.00		0.00
+perm-enf-f-agent      			331.67		0.00		0.00		0.00		13098.67		78328.67		-0.23
+perm-mon-agent        			119.67		0.00		0.00		0.00		13043.00		77946.33		-0.66
+
+Running xalan:
+perm-mon-agent        			118.67		0.00		0.00		0.00		953.67		7954.67		-2.49
+perm-enf-c-agent      			336.33		0.00		0.00		0.00		953.67		7960.67		-2.49
+perm-enf-f-cache-agent			332.67		0.00		0.00		0.00		955.67		8213.67		-2.28
+perm-enf-f-agent      			330.00		0.00		0.00		0.00		980.67		8335.00		0.27
+no-agent              			60.33		0.00		0.00		0.00		978.00		7953.67		0.00
+perm-both-agent       			335.00		0.00		0.00		0.00		958.00		8640.67		-2.04
+perm-jsm              			77.33		0.00		0.00		0.00		972.33		8042.67		-0.58
+perm-enf-c-cache-agent			329.33		0.00		0.00		0.00		953.00		8226.67		-2.56
+
+Running zxing:
+perm-enf-f-agent      			327.67		0.00		0.00		0.00		1326.33		11988.67		2.82
+perm-jsm              			73.33		0.00		0.00		0.00		1277.67		13040.33		-0.96
+perm-mon-agent        			124.67		0.00		0.00		0.00		1290.33		14245.67		0.03
+perm-enf-c-agent      			322.00		0.00		0.00		0.00		1345.33		12899.67		4.29
+perm-enf-c-cache-agent			322.67		0.00		0.00		0.00		1326.00		12311.33		2.79
+no-agent              			60.33		0.00		0.00		0.00		1290.00		10161.00		0.00
+perm-both-agent       			346.00		0.00		0.00		0.00		1322.67		14408.67		2.53
+perm-enf-f-cache-agent			341.67		0.00		0.00		0.00		1291.67		9613.00		0.13

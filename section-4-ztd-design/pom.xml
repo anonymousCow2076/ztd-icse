@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.anonuser.company</groupId>
+    <artifactId>PackagePermissionsManager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-util</artifactId>
+            <version>9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.company.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+        
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution>
+                        <id>empty-perm-agent-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>empty-perm-agent</classifier>
+                            <includes>
+                                <include>com/anonuser/company/agents/agent1/**</include>
+                            </includes>
+                            <archive>
+                                <manifestEntries>
+                                    <Premain-Class>
+                                        com.anonuser.company.agents.agent1.EmptyTransformerPermissionsAgent
+                                    </Premain-Class>
+                                    <Can-Retransform-Classes>
+                                        true
+                                    </Can-Retransform-Classes>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>exec-perm-agent-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>exec-perm-agent</classifier>
+                            <includes>
+                                <include>com/anonuser/company/agents/agent2/**</include>
+                            </includes>
+                            <archive>
+                                <manifestEntries>
+                                    <Premain-Class>
+                                        com.anonuser.company.agents.agent2.ExecPermissionsAgent
+                                    </Premain-Class>
+                                    <Can-Retransform-Classes>
+                                        true
+                                    </Can-Retransform-Classes>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>no-trans-agent-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>no-trans-agent</classifier>
+                            <includes>
+                                <include>com/anonuser/company/agents/agent3/**</include>
+                            </includes>
+                            <archive>
+                                <manifestEntries>
+                                    <Premain-Class>
+                                        com.anonuser.company.agents.agent3.NoTransformationAgent
+                                    </Premain-Class>
+                                    <Can-Retransform-Classes>
+                                        true
+                                    </Can-Retransform-Classes>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>perm-agent-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>perm-agent</classifier>
+                            <includes>
+                                <include>com/anonuser/company/agents/agent4/**</include>
+                            </includes>
+                            <archive>
+                                <manifestEntries>
+                                    <Premain-Class>
+                                        com.anonuser.company.agents.agent4.PermissionsAgent
+                                    </Premain-Class>
+                                    <Can-Retransform-Classes>
+                                        true
+                                    </Can-Retransform-Classes>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>bytecode-agent-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>bytecode-agent</classifier>
+                            <includes>
+                                <include>com/anonuser/company/agents/agent5/**</include>
+                            </includes>
+                            <archive>
+                                <manifestEntries>
+                                    <Premain-Class>
+                                        com.anonuser.company.agents.agent5.BytecodeGeneratorAgent
+                                    </Premain-Class>
+                                    <Can-Retransform-Classes>
+                                        true
+                                    </Can-Retransform-Classes>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <id>agent-shaded-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <shadedArtifactAttached>true</shadedArtifactAttached>
+                            <shadedClassifierName>shaded</shadedClassifierName>
+                            <artifactSet>
+                                <includes>
+                                    <!-- Include all required dependencies -->
+                                    <include>org.ow2.asm:asm:*</include>
+                                    <include>org.ow2.asm:asm-util:*</include>
+                                    <include>org.ow2.asm:asm-tree:*</include>
+                                    <include>org.ow2.asm:asm-analysis:*</include>
+                                    <include>org.ow2.asm:asm-commons:*</include>
+                                    <include>com.fasterxml.jackson.core:jackson-databind:*</include>
+                                    <include>com.fasterxml.jackson.core:jackson-annotations:*</include>
+                                    <include>com.fasterxml.jackson.core:jackson-core:*</include>
+                                    <include>com.company.code.gson:*</include>
+                                    <!-- Add any other dependencies you want to include here -->
+                                </includes>
+                            </artifactSet>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>com.anonuser.company.agents.agent4.PermissionsAgent</mainClass>
+                                </transformer>
+<!--                                <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">-->
+<!--                                    <resource>org/ow2/asm/**</resource>-->
+<!--                                </transformer>-->
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>
+                                com.anonuser.company.apps.AllPermissionsApp
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+</project>
